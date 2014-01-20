@@ -1,0 +1,6 @@
+{
+  "author"      : "Kevin Solorio",
+  "name"        : "listed",
+  "description" : "Linked list implementation for Stack and Queue",
+  "version"     : "0.0.1"
+}
