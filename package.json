@@ -10,7 +10,6 @@
   "main"            : "./lib/listed",
   "dependencies"    : {},
   "devDependencies" : {
-    "mocha" : "1.17.0",
-    "expect": "0.0.2"
+    "mocha" : "1.17.0"
   }
 }
