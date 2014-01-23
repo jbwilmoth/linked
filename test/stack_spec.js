@@ -1,4 +1,4 @@
-var listed = require('../lib/listed'),
+var listed = require('../'),
     assert = require('assert');
 
 describe('Stack', function(){
