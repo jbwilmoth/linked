@@ -43,5 +43,26 @@ describe('Stack', function(){
 
   });
 
+  describe('#pop', function(){
+
+    describe('when stack is empty', function(){
+      it('returns null', function(){
+        var stack = listed.createStack();
+        assert.equal(stack.pop(), null);
+      });
+    });
+
+    describe('when stack contains items', function(){
+      it('returns the item on top of the stack', function(){
+        var stack = listed.createStack();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        assert.equal(stack.pop(), 3);
+      });
+    });
+
+  });
+
 });
 
